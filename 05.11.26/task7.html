@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Карточка студента</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+        }
+        .card {
+            border: 1px solid black;
+            padding: 15px;
+            width: 300px;
+        }
+        img {
+            width: 100px;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="studentCard" class="card">
+        <img src="C:\Users\sasha\Downloads\3840x.jpg" alt="Фото студента">
+        
+        <h2 id="studentName">Рамиля</h2>
+        <p><strong>Специальность:</strong> Психиатор</p>
+        <p><strong>Курс:</strong> 3 курс</p>
+        
+        <p><strong>Дисциплины:</strong></p>
+        <ul id="disciplineList">
+            <li>Дипломатия</li>
+            <li>Психология</li>
+        </ul>
+
+        <div>
+            <input type="text" id="newDiscipline" placeholder="Новая дисциплина...">
+            <button id="addDisciplineBtn">Добавить</button>
+        </div>
+
+        <button id="changeInfoBtn">Изменить информацию</button>
+        <button id="hideCardBtn">Скрыть карточку</button>
+    </div>
+
+    <script src="task7.js"></script>
+</body>
+</html>
