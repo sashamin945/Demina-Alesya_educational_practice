@@ -28,3 +28,7 @@ fetchWithTimeout('https://wttr.in/Moscow?format=j1', 5000)
     .catch(error => {
         console.error("Ошибка:", error.message);
     });
+
+//Таймаут 100 мс
+//Таймаут 5000
+//Успех! Данные пришли: 200

@@ -33,8 +33,15 @@ Promise.allSettled(promises)
         });
     });
 
+<<<<<<< HEAD
 
 //Все запросы завершены. Результат:
 //Москва: Температура 2°C
 //Париж: Температура 7°C
 //Сломанный город: Ошибка — Failed to execute 'fetch' on 'Window': Failed to parse URL from https://wttr:inn/Moscow?format=j1
+=======
+//Все запросы завершены. Результат:
+//Москва: Температура 2°C
+//Париж: Температура 7°C
+//Сломанный город: Ошибка — Failed to execute 'fetch' on 'Window': Failed to parse URL from https://wttr:inn/Moscow?format=j1
+>>>>>>> cba8e126ff17452cac9c4b61189b77f1cbfd7476
